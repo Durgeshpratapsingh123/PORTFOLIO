@@ -441,8 +441,8 @@ h3.my-profession{
 }
 
 .about .about-content .education{
-    flex: 0 0 75%;
-    max-width: 75%;
+    flex: 0 0 100%;
+    max-width: 100%;
     margin-top: 30px;
 }
 
@@ -735,6 +735,10 @@ form {
         display: block;
         margin-left: 0;
     }
+    .about .about-content .personal-info .info-item{
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
 }
 
 @media(max-width:991px){
@@ -763,3 +767,4 @@ form {
         max-width: 100%;
     }
 }
+
